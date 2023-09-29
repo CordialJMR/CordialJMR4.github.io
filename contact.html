@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The LatestCell | Contact Me</title>
+
+    <!--SIR! YUNG HOME BUTTON SA MAY LOGO-->
+    
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="img/smarthphone.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" class="checkbox" id="check">
+        <label for="check" class="icons">
+            <img src="Logo/menu.png" class="menu-img" id="menu-icon">
+            <img src="Logo/close.png" class="close" id="close-icon">
+        </label>
+        
+        <a class="navbar-brand" href="index.html"><img src="Logo/logo.png" class="logo"></a>
+
+        <nav class="navbar">
+            <a href="latest.html" style="--i:0;">Latest Smartphone</a>
+            <a href="affordable.html" style="--i:1;">Affordable Smartphone</a>
+            <a href="contact.html" style="--i:2;">Contact Me</a>
+            <a href="#" style="--i:3;" class="btn"><button type="button" onclick="toggleBtn()" id="btn" class="button"><Span></Span></button></a>
+        </nav>
+    </header>
+
+    <img src="img/light.png" class="light" id="light">
+    
+    <div class="contact">
+        <div class="content">
+            <h2>Contact Us</h2><br>
+            <p>Got a question about the latest smartphones? Need help choosing the right phone for you? Our team of experts is here to help!</p>
+        </div>
+        <div class="container">
+            <div class="ContactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>H5CC+HH2, Marigman St. <br>Barangay, San Roque<br> Antipolo City Rizal, <br>Antipolo, 1870 Rizal</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>(02) 8697 1362</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>antipolo.registrar@urs.edu.ph</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send" class="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="Home.js"></script>
+</body>
+</html>
